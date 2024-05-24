@@ -10,7 +10,7 @@ Clone the repository and examin two notebooks for different purposes:
 ### CIFAR10 / t-SNE
 An autoencoder is trained to reproduce CIFAR10 images with a bottleneck of 128 neurons. Later the activations of the bottleneck layer are visualized in 2D with t-SNE algorithm. 
 
-As comparison for visualization with t-SNE, the MNIST dataset is visualized by t-SNE aswell.  
+As comparison for visualization with t-SNE, the MNIST dataset is visualized by t-SNE aswell. For both data representatives of small squared regions in the t-SNE plain are plotted simultaneously. Allowing to observe the change of images with coordinates in the t-SNE plain. Particularly the MNIST representation changes within the clusters quite graduarly, for example from upright written to crooked writings of the same number.
 
 ### Autoencoders on self-generated data
 A class is provided to generate images of squares or circles. Moreover corresponding circles and squares can be constructed as data. This means, that images with circles and their counterparts with squares at the same location and the same size in pixel can be generated.
