@@ -1,4 +1,4 @@
-# Computer_Vision_Autoencoders
+# Computer-Vision autoencoders
 Examin autoencoders on CIFAR10 and self-generated data
 
 ## How to
